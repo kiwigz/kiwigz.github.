@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Milo's Lovely Website ♡</title>
+        <style>
+            body {
+                background: rgb(255, 206, 206);
+                color: rgb(181,148,108,255);
+                padding: 10px;
+                font-family: monospace;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(238,191,138,255);
+               margin: 0 auto;
+               margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: underline;
+                color: rgb(255, 255, 255);
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgba(248,243,237,255);
+                display: flex;
+                border-radius: 10px;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 300px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 2px rgb(224,186,143,255) ridge;
+                border-radius: 10px;
+                padding: 4px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+    </head>
+    
+    <body>
+         <!-- All content goes here -->
+        <div id=all-contents>
+            <nav> 
+                <h1>Milo's Lovely Website ♡</h1>
+                <ul id=nav-ul>
+                    <li class=nav-li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class=nav-li>
+                        <a href=portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <!-- Sidebar section -->
+                <div class=sidebar>
+                    <img class=sidebar-img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ786K6QlKA6PhBexxmN6UJTDr6Tc9FbQLKhA:cdn.shopify.com/s/files/1/1772/1611/products/CuteAnimalPostcards_9_grande.jpg%3Fv%3D1611634513&usqp=CAU>
+                </div>
+                <!-- Content section -->
+                <div class=content>
+                    <h2>Milo Stallard</h2>
+                    <p>Student at ECO</p>
+                 <!-- Interests section -->
+                 <div id=interests>
+                     <h3>Interests</h3>
+                        <ul>
+                            <li>Making jewlery</li>
+                            <li>Crochet</li>
+                            <li>Listen to music</li>
+                        </ul>
+                 </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
